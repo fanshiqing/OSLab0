@@ -44,3 +44,6 @@ debug: game.img
 clean:
 	@cd boot; make clean
 	rm -f game game.img $(OBJS) $(OBJS:.o=.d)
+
+
+#for remote git commit test
